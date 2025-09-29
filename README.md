@@ -31,7 +31,6 @@ This project involves designing and developing a professional website for Perspe
 - JavaScript (to be implemented in Part 3)
 - Git for version control
 
-
 ## Key Features
 - Responsive design for all device types
 - Five main pages with semantic HTML structure
@@ -49,6 +48,14 @@ This initial submission includes:
 - Organized file and folder structure
 - Meaningful content integrated into all pages
 
+## Part 2 Details
+This stage focused on enhancing the website with styling, structure improvements, and updated resources. The following were completed:
+- Renamed project folders: assets → images for consistency
+- Implemented CSS styling: created and linked style.css for layout and design across all pages
+- Added Google Fonts references for consistent typography
+- Created sitemaps to support navigation and SEO
+- Fixed and updated wireframes to align with the new design direction
+
 ## Changelog
 
 ### [Date: 27/08/2025]
@@ -60,11 +67,19 @@ This initial submission includes:
 - Implemented contact.html with contact form
 - Added README.md with project documentation
 
+### [Date: 29/09/2025]
+- Renamed project folder: changed assets to images for clarity
+- Added references and integration for Google Fonts
+- Implemented CSS styling and linked style.css across all pages
+- Added sitemaps to improve navigation and SEO preparation
+- Updated and fixed wireframes to match new design direction
+
 ## References
 
 ### Web Development Resources
 
 - W3Schools. (2023). HTML Tutorial. Retrieved from https://www.w3schools.com/html/
+- Google Fonts. (2025). Styling Fonts. Retrieved from https://fonts.google.com/selection/embed/
 
 ### Content Sources
 - Perspective Cloud Accountants Inc. (2023). Company information and service descriptions. [Provided by client]
@@ -79,8 +94,8 @@ Tested and compatible with:
 - Edge (latest)
 
 ## Future Enhancements
-For Parts 2 and 3, the following will be implemented:
-- CSS styling and responsive design
+For Part 3, the following will be implemented:
+- CSS styling and responsive design (completed in Part 2)
 - JavaScript form validation
 - Interactive elements
 - SEO optimization
