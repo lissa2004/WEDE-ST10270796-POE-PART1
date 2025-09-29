@@ -27,7 +27,7 @@ This project involves designing and developing a professional website for Perspe
 
 ## Technologies Used
 - HTML5
-- CSS (to be implemented in Part 2)
+- CSS
 - JavaScript (to be implemented in Part 3)
 - Git for version control
 
