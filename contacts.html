@@ -5,81 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PCA | Contacts</title>
     <meta name="description" content="Professional accounting services for educational institutions">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');</style>
     <link rel="shortcut icon" href="./assets/PCA favicon.jpg" type="image/x-icon">
+    <link rel ="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- Header of the Contacts-section part of the website with navigation-->
     <header>
-        <div>
-        <nav>
-            <div>
-                <img src="./assets/PCA banner image.jpg" width="300" height="90" alt="PCA-image-Logo">     
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="./assets/PCA favicon.jpg" alt="PCA-image-Logo">     
             </div>
-            <div>
+            <div class="company-name">
+                <h1><Strong>Perspective Cloud Accountants Inc-(PCA)</Strong></h1>
+            </div>
+            <div class="navigation">
                 <a href="./index.html">Home</a> |
                 <a href="./about.html">About</a> |
                 <a href="./services.html">Services</a> |
                 <a href="./resources.html">Resources</a> |
                 <a href="./contacts.html">Contacts</a> 
             </div>  
-        </nav>
         </div>
     </header>
     <!-- Main body for Contact-section of the website -->
     <main>
-        <div>
+        <div class="contacts-section">
+        <div class="contacts-intro">
             <h2>Contact Perspective Cloud Accountants Inc</h2>
             <p>Reach out to us for specialized accounting services tailored for educational institutions.</p>
         </div>
-        <div>
+
+        <div class="address">
             <h3>Our Office</h3>
-        <div>
             <p>1492 Block L, Mmabatho, 2735</p>
             <p>North West Province, South Africa</p>
             <p>Phone: <a href="tel:+27837024347">083 702 4347</a></p>
-            <p>Email: <a href="malito:abbey@pcaccountants.co.za">abbey@pcaccountants.co.za</a></p>
+            <p>Email: <a href="mailto:abbey@pcaccountants.co.za">abbey@pcaccountants.co.za</a></p>
         </div>
-        </div>
-        <form method="post"></form>
-        <div>
+
+        <div class="contact-form">
             <h3>Send Us a Message</h3>
-        <div>
-            <label for="name">Full Name: </label>
-            <input type="text" id="name" name="name" required>
+            <form method="post">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div>
+                    <label for="school">School/Institution:</label>
+                    <input type="text" id="school" name="school">
+                </div>
+
+                <div class="message-section">
+                    <label for="message-type">Type of Message:</label>
+                    <select id="message-type" name="message-type">
+                        <option value="general">General Inquiry</option>
+                        <option value="consultation">Request Consultation</option>
+                        <option value="service">Service Information</option>
+                        <option value="workshop">Workshop Registration</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
         </div>
-        <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone">
-        </div>
-        <div>
-            <label for="school">School/Institution:</label>
-            <input type="text" id="school" name="school">
-        </div>
-        <div>
-        <label for="message-type">Type of Message:</label>
-            <select id="message-type" name="message-type">
-                <option value="general">General Inquiry</option>
-                <option value="consultation">Request Consultation</option>
-                <option value="service">Service Information</option>
-                <option value="workshop">Workshop Registration</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
-        <div>
-        <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-        </div>
-        <div>
-            <button type="submit">Send Message</button>
-        </div>
-       </form>
-        </div>
-        <div>
-        <h3>Business Hours</h3>
+
+        <div class="trading-hours">
+            <h3>Business Hours</h3>
             <table>
                 <tr>
                     <td>Monday - Friday</td>
@@ -95,6 +106,17 @@
                 </tr>
             </table>
         </div>
+    </div>
     </main>
+    <!-- Footer of the about-section of the website -->
+    <footer>
+        <div class="footer">
+            <h1>Perspective Cloud Accountants Inc (PCA)</h1>
+            <p>Office Number: 083 702 4347 </p>
+            <p>Location: 1492 Masibi Street Montshiwa 2737 Mahikeng </p>
+            <p>Email: abbey@pcaccountants.co.za</p>
+            <p>&copy; 2023 Perspective Cloud Accountants Inc. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
