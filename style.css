@@ -536,4 +536,295 @@ a.button:hover {
     border-bottom: none;
 }
 
+/* MEDIA QUERIES */
+/* MOBILE (max 767px) */
+@media (max-width: 767px) {
 
+    .company-name {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .navigation a {
+        font-size: 14px;
+        padding: 8px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Logo smaller */
+    .logo {
+        width: 100px;
+    }
+    .logo img {
+        width: 70px;
+    }
+
+    /* Headings smaller */
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+
+    /* Paragraphs more space */
+    p, li {
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 6px 12px;
+    }
+
+    /* Buttons smaller */
+    button,
+    .service-link button,
+    .action-section button,
+    .contact-form button,
+    a.button {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin: 10px auto;
+        display: block;
+        width: auto;
+    }
+
+    .purpose-statement{
+        height: 10%;
+        margin: 0px;
+    }
+
+    .purpose-statement h2{
+        padding-left: 10px;
+    }
+
+    .service-overview{
+        margin-top: 40px;
+    }
+
+    .clients-feedback p2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* about page */
+
+    .about{
+        height: 100%;
+    }
+
+    .about p{
+        margin-left: 10px;
+    }
+    .solutions-offered ul{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    /* Services cards stack vertically + smaller */
+
+    .services p{
+        margin-left: 10px;
+    }
+    .services-offered {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-offered .option1,
+    .services-offered .option2,
+    .services-offered .option3 {
+        width: 95%;
+        margin: 12px 0;
+        height: auto;
+    }
+    .services-offered h3 {
+        font-size: 16px;
+    }
+    .option1 p,
+    .option2 p,
+    .option3 p {
+        font-size: 14px;
+    }
+
+    /* Reports smaller */
+    .pca-reports {
+        flex-direction: column;
+        align-items: center;
+    }
+    .report1,
+    .report2,
+    .report3 {
+        width: 95%;
+        height: auto;
+        margin: 15px 0;
+    }
+    .report1 p,
+    .report2 p,
+    .report3 p {
+        font-size: 14px;
+    }
+
+    /* Resource + Workshop smaller */
+    .resource-card,
+    .workshop {
+        width: 95%;
+        margin: 15px auto;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    /* Contact form scaled */
+    .contact-form {
+        width: 95%;
+        padding: 15px;
+    }
+    .contact-form h3 {
+        font-size: 18px;
+    }
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea {
+        font-size: 13px;
+        padding: 8px;
+    }
+    .contact-form button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Address + trading hours smaller */
+    .address,
+    .trading-hours {
+        width: 95%;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    /* Footer smaller */
+    .footer {
+        height: 100%;
+        padding: 20px 10px;
+    }
+    .footer h1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}
+
+/* TABLET (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .company-name {
+        display: none;
+    }
+
+    .nav-bar {
+        height: auto;
+        padding: 12px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+    .logo img {
+        width: 90px;
+    }
+
+    .navigation a {
+        font-size: 15px;
+    }
+
+    h1 { font-size: 26px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 18px; }
+
+    p, li {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    .purpose-statement{
+        height: 10%;
+        margin: 0px;
+    }
+
+    .purpose-statement h2{
+        padding-left: 10px;
+    }
+
+    .service-overview{
+        margin-top: 40px;
+    }
+
+    .clients-feedback p2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* about page */
+
+    .about{
+        height: 100%;
+    }
+
+    .about p{
+        margin-left: 10px;
+    }
+    .solutions-offered ul{
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    .services-offered {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services-offered .option1,
+    .services-offered .option2,
+    .services-offered .option3 {
+        flex: 1 1 calc(48% - 20px);
+        margin: 12px;
+        height: 250px;
+    }
+
+    .pca-reports {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .report1,
+    .report2,
+    .report3 {
+        width: 90%;
+        max-width: 500px;
+        margin: 20px;
+    }
+}
