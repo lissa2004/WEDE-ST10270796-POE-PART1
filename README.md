@@ -55,6 +55,7 @@ This stage focused on enhancing the website with styling, structure improvements
 - Added Google Fonts references for consistent typography
 - Created sitemaps to support navigation and SEO
 - Fixed and updated wireframes to align with the new design direction
+- Fixed the budget of the website and timeline.
 
 ## Changelog
 
