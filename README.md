@@ -31,72 +31,160 @@ This project involves designing and developing a professional website for Perspe
 - JavaScript (to be implemented in Part 3)
 - Git for version control
 
+# Perspective Cloud Accountants Website
+
+## Project Overview
+
+This website project is designed for **Perspective Cloud Accountants**, featuring a responsive design with interactive elements, dynamic content, and user-friendly interfaces. The project demonstrates HTML5, CSS3, and JavaScript functionality for a fully functional professional website.
+
+---
+
 ## Key Features
-- Responsive design for all device types
-- Five main pages with semantic HTML structure
-- Hero section with introduction
-- Clear service descriptions with benefits and outcomes
-- Testimonials and case studies
-- Resource library with downloadable guides
-- Contact forms and consultation requests
 
-## Part 1 Details
-This initial submission includes:
-- Complete HTML structure for all five pages
-- Semantic HTML5 markup
-- Functional navigation system
-- Organized file and folder structure
-- Meaningful content integrated into all pages
+- Fully **responsive design** for desktop, tablet, and mobile devices.
+- **Five main pages** with semantic HTML structure: Home, About, Services, Resources, Contact.
+- Hero section introducing the company.
+- Clear service descriptions with benefits and outcomes.
+- **Testimonials** dynamically loaded from JSON files.
+- **Resource library** with downloadable guides.
+- **Contact and enquiry forms** with validation and dynamic submission feedback.
+- Interactive elements: accordions, tabs, modals, and a search/filterable services list.
+- Interactive maps using **Leaflet.js**.
+- SEO-ready structure with meta tags, alt attributes, and sitemap preparation.
 
-## Part 2 Details
-This stage focused on enhancing the website with styling, structure improvements, and updated resources. The following were completed:
-- Renamed project folders: assets → images for consistency
-- Implemented CSS styling: created and linked style.css for layout and design across all pages
-- Added Google Fonts references for consistent typography
-- Created sitemaps to support navigation and SEO
-- Fixed and updated wireframes to align with the new design direction
-- Fixed the budget of the website and timeline.
+---
 
-## Changelog
+## Part 1: Initial Submission
 
-### [Date: 27/08/2025]
-- Initial commit: Set up basic project structure
-- Added index.html with and navigation
-- Created about.html with company information
-- Developed services.html with service offerings
-- Built resources.html with downloadable content
-- Implemented contact.html with contact form
-- Added README.md with project documentation
+- Complete HTML structure for all pages.
+- Semantic HTML5 markup.
+- Functional navigation system.
+_ Organized file and folder structure.
+_ Meaningful content integrated on all pages.
 
-### [Date: 29/09/2025]
-- Renamed project folder: changed assets to images for clarity
-- Added references and integration for Google Fonts
-- Implemented CSS styling and linked style.css across all pages
-- Added sitemaps to improve navigation and SEO preparation
-- Updated and fixed wireframes to match new design direction
+_*Changelog**
+ **27/08/2025** – Initial commit: added index.html, about.html, services.html, resources.html, contact.html, and README.md with project documentation.
 
-## References
+---
 
-### Web Development Resources
+## Part 2: Styling and Layout
 
-- W3Schools. (2023). HTML Tutorial. Retrieved from https://www.w3schools.com/html/
-- Google Fonts. (2025). Styling Fonts. Retrieved from https://fonts.google.com/selection/embed/
+- Renamed project folders: `assets` → `images`.
+- Implemented **CSS styling** (`style.css`) for consistent layout and design.
+- Added **Google Fonts** for typography consistency.
+- Created sitemaps for navigation and SEO.
+- Updated wireframes to match new design direction.
+- Adjusted project timeline and budget.
 
-### Content Sources
-- Perspective Cloud Accountants Inc. (2023). Company information and service descriptions. [Provided by client]
+**Changelog**
 
-### Images
-- Provided by Client 
+- **29/09/2025** – Implemented CSS styling, linked fonts, added sitemaps, and updated wireframes.
 
+---
+
+## Part 3: Enhancements and Functionality
+
+### 1. Interactive Elements
+
+- Accordion toggle panels for FAQs and footer info.
+- Tabbed sections for service categories.
+- Modal pop-ups for newsletter/email requests.
+- Dynamic **Leaflet map** showing office location.
+- Scroll-reveal animations for fade-in elements.
+- Searchable and filterable services list.
+- Testimonials dynamically loaded from JSON files.
+- Optional gallery lightbox for images.
+
+### 2. Dynamic Content
+
+- Services, testimonials, and other elements dynamically rendered via JavaScript.
+- Search input filters services in real-time.
+- No-results messages for empty search results.
+
+### 3. Form Functionality and Validation
+
+- **Contact form** (`contact.html`) validates all required fields.
+- Input validation for name, email, phone, type, and message.
+- Prepares email via `mailto:` and provides visual success feedback.
+- Dynamic error messages if fields are missing or invalid.
+- Enquiry form (`enquiry.html`) supports similar validations and responses.
+
+### 4. Search Engine Optimization (SEO)
+
+- Proper **title tags, meta descriptions, and keywords** for each page.
+- Structured heading tags (H1, H2, H3).
+- Descriptive image file names and alt attributes.
+- Clean URL structure and internal linking.
+- Mobile-friendly layout.
+- Robots.txt and sitemap.xml created for search indexing.
+- Optimized page speed and basic security measures.
+
+---
 
 ## Browser Compatibility
-Tested and compatible with:
+
 - Chrome (latest)
 - Edge (latest)
 
+---
+
+## File Structure
+
+project/
+│
+├─ index.html
+├─ about.html
+├─ services.html
+├─ resources.html
+├─ contact.html
+├─ style.css
+├─ scripts.js
+├─ README.md
+├─ images/
+│   └─ ...
+├─ data/
+│   └─ testimonials.json
+└─ fonts/
+    └─ ...
+```
+
+---
+
+## References
+
+- W3Schools. HTML Tutorial. [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
+- Google Fonts. [https://fonts.google.com/selection/embed/](https://fonts.google.com/selection/embed/)
+- Perspective Cloud Accountants Inc., Company information and service descriptions (provided by client).
+
+---
+
+## GitHub Practices
+
+- Committed changes regularly with descriptive messages.
+- Updated README.md with new Part 3 features.
+- Pushed complete project to remote repository for submission.
+
+---
+
 ## Future Enhancements
-For Part 3, the following will be implemented:
-- CSS styling and responsive design (completed in Part 2)
-- JavaScript form validation
-- Interactive elements
-- SEO optimization
+
+- Implement gallery lightbox for images.
+- Advanced interactive map features.
+- Enhanced animations and transitions.
+- Further SEO optimization and accessibility improvements.
+
+---
+
+## Contribution
+
+- Developed by: [Your Name]
+- Student Number: [Your Student Number]
+- Module: Web Development (Introduction)
+- Date: 19/11/2025
+---
+
+**Changelog Summary**
+
+- Initial commit: 27/08/2025
+- Part 2 styling and layout: 29/09/2025
+- Part 3 dynamic functionality and interactive enhancements: 19/11/2025

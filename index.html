@@ -3,93 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perspective Cloud Accountants|Home</title>
-    <meta name="description" content="Professional accounting services for educational institutions">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');</style>
+
+    <!-- SEO Part 3-->
+    <title>Perspective Cloud Accountants | Home</title>
+    <meta name="description" content="Professional accounting, governance, and financial management services for educational institutions in South Africa.">
+    <meta name="keywords" content="accounting, cloud accounting, financial management, school accounting, governance support">
+    <meta name="author" content="Perspective Cloud Accountants Inc">
+    <link rel="canonical" href="./index.html">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="shortcut icon" href="./images/PCA favicon.jpg" type="image/x-icon">
-    <link rel ="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <!-- Header of the website with navigation-->
-    <header>
-        <div class="nav-bar">
-            <div class="logo">
-                <img src="./images/PCA favicon.jpg" alt="PCA-image-Logo">     
-            </div>
-            <div class="company-name">
-                <h1><Strong>Perspective Cloud Accountants Inc-(PCA)</Strong></h1>
-            </div>
-            <div class="navigation">
-                <a href="./index.html">Home</a> |
-                <a href="./about.html">About</a> |
-                <a href="./services.html">Services</a> |
-                <a href="./resources.html">Resources</a> |
-                <a href="./contacts.html">Contacts</a> 
-            </div>  
+
+<!-- Navigation -->
+<header>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="./images/PCA favicon.jpg" alt="PCA company logo">
         </div>
-    </header>
-    <!-- Main body section of the website -->
-    <main>
-        <div class="purpose-statement">
-            <h2>Our Purpose</h2>
-            <p>At Perspective Cloud Accounting Inc (<strong>PCA</strong>), we strive to be the premier accounting and advisory firm of <strong>choice</strong> for educational institutions seeking to achieve sustainable growth, by focusing on unlocking differentiated shared value offerings through innovative, cloud-based solutions</p>
-            <p>Our mission is to empower schools in South Africa with short term focus within North West Province to achieve financial sustainability and transparency, allowing educators and learners to prioritize what matters most—teaching and learning</p>
+
+        <div class="company-name">
+            <h1><strong>Perspective Cloud Accountants Inc (PCA)</strong></h1>
         </div>
-        <!-- Service overview section -->
-        <div class="service-overview">
-            <h2>Our Services</h2>
-            <div class="services-offered">
-                <div class="option1">
-                    <h3>Financial Management</h3>
-                    <p>Comprehensive real-time financial management services designed specifically for educational institutions</p>
-                </div>
-                <div class="option2">
-                    <h3>Technology Integration</h3>
-                    <p>Modern accounting software and digital tools to enhance efficiency and accuracy.</p>
-                </div>
-                <div class="option3">
-                    <h3>School Governance Support</h3>
-                    <p>Expertise in governance to support School Governing Bodies in establishing effective oversight.</p>
-                </div>
+
+        <nav class="navigation">
+            <a href="./index.html">Home</a> |
+            <a href="./about.html">About</a> |
+            <a href="./services.html">Services</a> |
+            <a href="./resources.html">Resources</a> |
+            <a href="./contacts.html">Contacts</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- Purpose Section -->
+    <section class="purpose-statement">
+        <h2>Our Purpose</h2>
+        <p>
+            At Perspective Cloud Accountants (<strong>PCA</strong>), we strive to be the premier accounting 
+            and advisory firm for educational institutions, offering cloud-driven financial solutions 
+            that support sustainability and growth.
+        </p>
+        <p>
+            Our mission is to empower schools across South Africa, with a focus in the North West Province, 
+            to improve financial transparency—so educators can prioritise teaching and learning.
+        </p>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="service-overview">
+        <h2>Our Services</h2>
+
+        <div class="services-offered">
+            <div class="option1">
+                <h3>Financial Management</h3>
+                <p>Real-time and cloud-based financial oversight tailored for schools.</p>
             </div>
-            <div class="service-link">
-                <a href="./services.html">
-                    <button>View All Services</button>
-                </a>
-            </div>   
-        </div>
-        <!-- Testimonials section -->
-        <div class="testimonials">
-                <h2>What Our Clients Say</h2>
-            <div class="clients-feedback">
-                <div>
-                    <p2>"PCA Accounting & Advisory transformed our financial management processes, allowing us to focus more on delivering quality education rather than worrying about the numbers."</p2>
-                    <p><strong>T. Leeuw, School Manager / Principal</strong><br>Batswana Commercial High School</p></p>
-                </div>
-                <div>
-                    <p2>"Their real-time reporting and strategic planning services have been instrumental in our school growth and sustainability."</p2>
-                    <p><strong>Evodia Legalammitlwa: Dean</strong><br>Striving Minds Nursing Academy</p>
-                </div>
+
+            <div class="option2">
+                <h3>Technology Integration</h3>
+                <p>Digital tools and modern accounting systems for enhanced efficiency.</p>
+            </div>
+
+            <div class="option3">
+                <h3>School Governance Support</h3>
+                <p>Professional governance training and compliance advisory services.</p>
             </div>
         </div>
-        <!-- call to action section of the website -->
-         <div class="action-section">
-            <h2>Ready to Transform Your School's Financial Management?</h2>
-            <p>Contact us today to schedule a consultation and learn how our specialized services can benefit your institution.</p>
-            <a href="./contacts.html">
-                <button>Contact Us</button>
-            </a>
+
+        <div class="service-link">
+            <a href="./services.html"><button>View All Services</button></a>
         </div>
-    </main>
-    <!-- Footer of the website -->
-    <footer>
+    </section>
+
+    <!-- Testimonials part3 JSON Dynamic Loader -->
+    <section class="testimonials-section fade-in">
+        <h2>What Our Clients Say</h2>
+        <div id="testimonials-container" class="testimonials"></div>
+    </section>
+
+    <!-- Action-section -->
+    <section class="action-section">
+        <h2>Ready to Transform Your School's Financial Management?</h2>
+        <p>Contact us today for a consultation or to learn how PCA can support your institution.</p>
+        <a href="./contacts.html"><button>Contact Us</button></a>
+    </section>
+
+    <!-- Quick Quote - Modal Trigger -->
+    <div class="openModal">
+        <button id="openModal" class="modal-btn">Get a Quick Quote</button>
+    </div>
+    <!-- Modal -->
+    <div id="modal" class="modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true">
+            <button id="closeModal" class="modal-close" aria-label="Close modal">×</button>
+
+            <h2>Quick Quote</h2>
+            <p>Enter your email address and we will send you an estimated starting fee.</p>
+
+            <input type="email" id="modal-email" placeholder="Your email" required>
+            <button id="modal-submit" class="modal-submit">Send Request</button>
+
+            <p id="modal-msg" class="modal-message" aria-live="polite"></p>
+        </div>
+    </div>
+
+</main>
+<!-- Footer -->
+<footer>
         <div class="footer">
             <h1>Perspective Cloud Accountants Inc (PCA)</h1>
-            <p>Office Number: 083 702 4347 </p>
-            <p>Location: 1492 Masibi Street Montshiwa 2737 Mahikeng </p>
+            <p>Office Number: 083 702 4347</p>
+            <p>Location: 1492 Masibi Street Montshiwa 2737 Mahikeng</p>
             <p>Email: abbey@pcaccountants.co.za</p>
             <p>&copy; 2023 Perspective Cloud Accountants Inc. All rights reserved.</p>
         </div>
-    </footer>
+    </footer> 
+<!-- Part 3 JavaScript embeded -->
+<script src="./script.js"></script>     
 </body>
 </html>

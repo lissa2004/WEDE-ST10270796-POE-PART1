@@ -139,18 +139,23 @@
     transform: scale(1.07);
 }
 
+.testimonial-card {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.testimonials-section h2 {
+    color: #053767;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
 .testimonials {
     width: 100%;
     padding: 25px 0;
-}
-
-.testimonials h2 {
-    color: #053767;
-    font-size: 28px;
-    padding-bottom: 9px;
-    width: 100%;
-    padding: 20px;
-    margin-top: 50px;
 }
 
 .clients-feedback p {
@@ -163,7 +168,7 @@
 
 .action-section {
     width: 100%;
-    padding: 25px 0 65px 0;
+    padding: 30 0 50px 0;
     margin-top: 30px;
 }
 
@@ -188,7 +193,6 @@
 .action-section button {
     color: white;
     font-size: 20px;
-    padding-bottom: 9px;
     border: none;
     text-decoration: none;
     margin-top: 20px;
@@ -199,6 +203,113 @@
 
 .action-section button:hover {
     transform: scale(1.07);
+}
+
+.openModal {
+    padding: 0;   
+    margin-top: 0;
+}
+
+.openModal button {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.openModal button:hover {
+    transform: scale(1.07);
+}
+
+/* Part 3 Modal overlay */
+.modal {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.6);
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s ease, visibility 0.3s ease;
+z-index: 1000;
+}
+
+.modal.active {
+opacity: 1;
+visibility: visible;
+}
+
+
+.modal-content {
+background: #ffffff;
+padding: 2rem;
+border-radius: 10px;
+max-width: 400px;
+width: 90%;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+position: relative;
+text-align: center;
+}
+
+
+.modal-close {
+position: absolute;
+top: 0.5rem;
+right: 0.5rem;
+background: transparent;
+border: none;
+font-size: 1.5rem;
+cursor: pointer;
+color: #333;
+transition: color 0.2s;
+}
+
+.modal-close:hover {
+color: #004080;
+}
+
+.modal-content h2 {
+margin-top: 0;
+color: #004080;
+}
+
+.modal-content p {
+margin: 1rem 0;
+font-size: 1rem;
+color: #333;
+}
+
+#modal-email {
+width: 100%;
+padding: 0.7rem;
+margin: 0.5rem 0 1rem 0;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 1rem;
+}
+
+.modal-submit {
+    padding: 0.7rem 1.2rem;
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.modal-submit:hover {
+    background-color: #003060;
+}
+
+ 
+.modal-message {
+    margin-top: 0.8rem;
+    font-size: 0.95rem;
 }
 
 .footer h1 {
@@ -236,6 +347,67 @@ p,
 li {
     padding: 10px 0 0 20px;
 }
+
+/* Part 3 Footer Accordion Container */
+.footer-accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+.footer-accordion .footer-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #053767;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-accordion .accordion-toggle {
+    width: 100%;
+    text-align: left;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #053767;
+    background-color: #e8f0fe;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-accordion .accordion-toggle:hover {
+    background-color: #d0e0fc;
+}
+
+.footer-accordion .accordion-toggle[aria-expanded="true"] {
+    background-color: #c0d8f9;
+}
+
+.footer-accordion .accordion-panel {
+    background-color: #f1f4f7;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-left: 3px solid #053767;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.footer-accordion .accordion-panel.open {
+    animation: expand 0.35s ease forwards;
+}
+
+@keyframes expand {
+    from { max-height: 0; opacity: 0; }
+    to { max-height: 200px; opacity: 1; }
+}
+
 
 /* REPORTS & SERVICES SECTIONS */
 
@@ -302,7 +474,6 @@ button {
     padding-top: 12px;
 }
 
-/* Individual Report Cards */
 .report1,
 .report2,
 .report3 {
@@ -330,6 +501,35 @@ button {
 .report2:hover,
 .report3:hover {
     transform: scale(1.07);
+}
+
+/* Part 3 Service Search Container */
+.service-search {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.service-search .search-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+.service-search .search-input:focus {
+    border-color: #004080;
+    box-shadow: 0 0 5px rgba(0, 64, 128, 0.3);
+}
+
+.service-search .search-input::placeholder {
+    color: #888;
+    font-style: italic;
 }
 
 /* RESOURCES-PAGE */
