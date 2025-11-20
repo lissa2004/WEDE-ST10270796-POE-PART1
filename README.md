@@ -31,12 +31,6 @@ This project involves designing and developing a professional website for Perspe
 - JavaScript (to be implemented in Part 3)
 - Git for version control
 
-# Perspective Cloud Accountants Website
-
-## Project Overview
-
-This website project is designed for **Perspective Cloud Accountants**, featuring a responsive design with interactive elements, dynamic content, and user-friendly interfaces. The project demonstrates HTML5, CSS3, and JavaScript functionality for a fully functional professional website.
-
 
 ## Key Features
 
