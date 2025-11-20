@@ -37,7 +37,6 @@ This project involves designing and developing a professional website for Perspe
 
 This website project is designed for **Perspective Cloud Accountants**, featuring a responsive design with interactive elements, dynamic content, and user-friendly interfaces. The project demonstrates HTML5, CSS3, and JavaScript functionality for a fully functional professional website.
 
----
 
 ## Key Features
 
@@ -52,7 +51,6 @@ This website project is designed for **Perspective Cloud Accountants**, featurin
 - Interactive maps using **Leaflet.js**.
 - SEO-ready structure with meta tags, alt attributes, and sitemap preparation.
 
----
 
 ## Part 1: Initial Submission
 
@@ -62,10 +60,10 @@ This website project is designed for **Perspective Cloud Accountants**, featurin
 _ Organized file and folder structure.
 _ Meaningful content integrated on all pages.
 
-_*Changelog**
+Changelog
+
  **27/08/2025** – Initial commit: added index.html, about.html, services.html, resources.html, contact.html, and README.md with project documentation.
 
----
 
 ## Part 2: Styling and Layout
 
@@ -76,11 +74,10 @@ _*Changelog**
 - Updated wireframes to match new design direction.
 - Adjusted project timeline and budget.
 
-**Changelog**
+Changelog
 
 - **29/09/2025** – Implemented CSS styling, linked fonts, added sitemaps, and updated wireframes.
 
----
 
 ## Part 3: Enhancements and Functionality
 
@@ -119,14 +116,12 @@ _*Changelog**
 - Robots.txt and sitemap.xml created for search indexing.
 - Optimized page speed and basic security measures.
 
----
 
 ## Browser Compatibility
 
 - Chrome (latest)
 - Edge (latest)
 
----
 
 ## File Structure
 
@@ -146,9 +141,7 @@ project/
 │   └─ testimonials.json
 └─ fonts/
     └─ ...
-```
 
----
 
 ## References
 
@@ -156,7 +149,6 @@ project/
 - Google Fonts. [https://fonts.google.com/selection/embed/](https://fonts.google.com/selection/embed/)
 - Perspective Cloud Accountants Inc., Company information and service descriptions (provided by client).
 
----
 
 ## GitHub Practices
 
@@ -164,7 +156,6 @@ project/
 - Updated README.md with new Part 3 features.
 - Pushed complete project to remote repository for submission.
 
----
 
 ## Future Enhancements
 
@@ -173,7 +164,6 @@ project/
 - Enhanced animations and transitions.
 - Further SEO optimization and accessibility improvements.
 
----
 
 ## Contribution
 
@@ -181,7 +171,6 @@ project/
 - Student Number: ST10270796
 - Module: Web Development (Introduction)
 - Date: 19/11/2025
----
 
 **Changelog Summary**
 
