@@ -177,8 +177,8 @@ project/
 
 ## Contribution
 
-- Developed by: [Your Name]
-- Student Number: [Your Student Number]
+- Developed by: Kamogelo
+- Student Number: ST10270796
 - Module: Web Development (Introduction)
 - Date: 19/11/2025
 ---
